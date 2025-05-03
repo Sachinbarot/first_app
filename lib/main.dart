@@ -1,7 +1,9 @@
+import 'package:first_app/animcontainer.dart';
 import 'package:first_app/home.dart';
 import 'package:first_app/keplerapp/bottomnavbar.dart';
 import 'package:first_app/keplerapp/createaccount.dart';
 import 'package:first_app/keplerapp/utills.dart';
+import 'package:first_app/layoutbuilder.dart';
 import 'package:first_app/neumorphic_screen.dart';
 import 'package:first_app/productlist.dart';
 import 'package:first_app/session1.dart';
@@ -52,7 +54,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.green,
               titleTextStyle: GoogleFonts.nunito(
                   fontSize: 20.0, fontWeight: FontWeight.bold))),
-      home: LiquidPullClass(),
+      home: Animcontainer(),
     );
   }
 }
