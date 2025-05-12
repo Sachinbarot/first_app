@@ -15,49 +15,7 @@ class _ShimmerClassState extends State<ShimmerClass> {
         appBar: AppBar(
           title: const Text("Shimmer Effect"),
         ),
-        body: ListView.builder(
-            itemCount: 5,
-            itemBuilder: (context, index) {
-              return Card(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    children: [
-                      ShimmerBox(
-                        height: 100.0,
-                        width: 100.0,
-                      ),
-                      const SizedBox(
-                        width: 10.0,
-                      ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          ShimmerBox(
-                            height: 12,
-                            width: 120.0,
-                          ),
-                          const SizedBox(
-                            height: 20.0,
-                          ),
-                          ShimmerBox(
-                            height: 8.0,
-                            width: 250.0,
-                          ),
-                          const SizedBox(
-                            height: 5.0,
-                          ),
-                          ShimmerBox(
-                            height: 8.0,
-                            width: 250.0,
-                          ),
-                        ],
-                      )
-                    ],
-                  ),
-                ),
-              );
-            }));
+        body: LinearProgressIndicator());
   }
 }
 
@@ -84,3 +42,48 @@ class ShimmerBox extends StatelessWidget {
     );
   }
 }
+
+
+// ListView.builder(
+//             itemCount: 5,
+//             itemBuilder: (context, index) {
+//               return Card(
+//                 child: Padding(
+//                   padding: const EdgeInsets.all(8.0),
+//                   child: Row(
+//                     children: [
+//                       ShimmerBox(
+//                         height: 100.0,
+//                         width: 100.0,
+//                       ),
+//                       const SizedBox(
+//                         width: 10.0,
+//                       ),
+//                       Column(
+//                         crossAxisAlignment: CrossAxisAlignment.start,
+//                         children: [
+//                           ShimmerBox(
+//                             height: 12,
+//                             width: 120.0,
+//                           ),
+//                           const SizedBox(
+//                             height: 20.0,
+//                           ),
+//                           ShimmerBox(
+//                             height: 8.0,
+//                             width: 250.0,
+//                           ),
+//                           const SizedBox(
+//                             height: 5.0,
+//                           ),
+//                           ShimmerBox(
+//                             height: 8.0,
+//                             width: 250.0,
+//                           ),
+//                         ],
+//                       )
+//                     ],
+//                   ),
+//                 ),
+//               );
+//             })
