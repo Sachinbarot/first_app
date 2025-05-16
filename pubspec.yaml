@@ -50,6 +50,7 @@ dependencies:
   showcaseview: ^4.0.1
   liquid_pull_to_refresh: ^3.0.1
   shimmer: ^3.0.0
+  flutter_animate_on_scroll: ^0.3.0
   
 
 dev_dependencies:

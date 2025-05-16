@@ -1,3 +1,4 @@
+import 'package:first_app/yt/anim_scroll.dart';
 import 'package:first_app/yt/shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.black26,
           scaffoldBackgroundColor: Colors.black45),
       theme: ThemeData(
-          iconTheme: IconThemeData(
+          iconTheme: const IconThemeData(
             color: Colors.red,
           ),
           cardColor: Colors.amber,
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.green,
               titleTextStyle: GoogleFonts.nunito(
                   fontSize: 20.0, fontWeight: FontWeight.bold))),
-      home: ShimmerClass(),
+      home: const AnimScrollClass(),
     );
   }
 }
