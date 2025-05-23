@@ -159,7 +159,7 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/http-1.3.0",
+      "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/http-1.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -404,7 +404,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-05-16T11:44:01.858248Z",
+  "generated": "2025-05-22T09:46:26.684357Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/sachinbrahmbhatt/Documents/flutter",

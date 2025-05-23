@@ -1,3 +1,4 @@
+import 'package:first_app/api.dart';
 import 'package:first_app/yt/anim_scroll.dart';
 import 'package:first_app/yt/shimmer.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.green,
               titleTextStyle: GoogleFonts.nunito(
                   fontSize: 20.0, fontWeight: FontWeight.bold))),
-      home: const AnimScrollClass(),
+      home: const ApiClass(),
     );
   }
 }

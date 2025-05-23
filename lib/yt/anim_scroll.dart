@@ -21,7 +21,7 @@ class _AnimScrollClassState extends State<AnimScrollClass> {
           children: const [
             FadeInLeft(
                 config: BaseAnimationConfig(
-              duration: Duration(seconds: 1),
+              duration: Duration(seconds: 10),
               child: Card(
                 color: Colors.amber,
                 child: Padding(
@@ -121,7 +121,7 @@ class _AnimScrollClassState extends State<AnimScrollClass> {
             ),
             FadeInRight(
                 config: BaseAnimationConfig(
-              duration: Duration(seconds: 1),
+              duration: Duration(seconds: 10),
               child: Card(
                 color: Color.fromARGB(255, 147, 200, 243),
                 child: Padding(
