@@ -1,5 +1,7 @@
 import 'package:first_app/api.dart';
+import 'package:first_app/keplerapp/profile.dart';
 import 'package:first_app/yt/anim_scroll.dart';
+import 'package:first_app/yt/image_cropper.dart';
 import 'package:first_app/yt/shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.green,
               titleTextStyle: GoogleFonts.nunito(
                   fontSize: 20.0, fontWeight: FontWeight.bold))),
-      home: const ApiClass(),
+      home: const ProfileClass(),
     );
   }
 }
