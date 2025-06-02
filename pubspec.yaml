@@ -51,6 +51,8 @@ dependencies:
   liquid_pull_to_refresh: ^3.0.1
   shimmer: ^3.0.0
   flutter_animate_on_scroll: ^0.3.0
+  image_picker: ^1.1.2
+  image_cropper: ^9.1.0
   
 
 dev_dependencies:
