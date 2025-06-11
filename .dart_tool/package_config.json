@@ -182,6 +182,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "get",
+      "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/get-4.7.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/google_fonts-6.2.1",
       "packageUri": "lib/",
@@ -332,6 +338,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
@@ -390,6 +402,12 @@
       "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/posix-6.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/provider-6.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "shimmer",
@@ -512,7 +530,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-06-02T13:02:21.028653Z",
+  "generated": "2025-06-04T08:13:25.698868Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///Users/sachinbrahmbhatt/Documents/flutter",
