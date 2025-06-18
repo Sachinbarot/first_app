@@ -30,10 +30,10 @@ class HomeController extends GetxController {
             colorText: Colors.black);
       } else {
         Get.snackbar("Error", "Something Went Wrong",
-            colorText: Colors.red, backgroundColor: Colors.transparent);
+            colorText: Colors.black, backgroundColor: Colors.transparent);
       }
     } catch (error) {
-      Get.snackbar("Error", "$error", backgroundColor: Colors.red);
+      Get.snackbar("Error", "$error", backgroundColor: Colors.black);
     }
   }
 }

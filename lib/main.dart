@@ -1,6 +1,7 @@
 import 'package:first_app/api.dart';
 import 'package:first_app/changenotifierexample.dart';
 import 'package:first_app/getXapp/bindings/homebinding.dart';
+import 'package:first_app/getXapp/localization/languages.dart';
 import 'package:first_app/getXapp/views/home.dart';
 import 'package:first_app/keplerapp/profile.dart';
 import 'package:first_app/yt/anim_scroll.dart';
@@ -41,6 +42,8 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.green,
               titleTextStyle: GoogleFonts.nunito(
                   fontSize: 20.0, fontWeight: FontWeight.bold))),
+      translations: AppLanguages(),
+      locale: Locale('en', 'US'),
       getPages: [
         GetPage(name: '/', page: () => HomeClass(), binding: HomeBinding()),
       ],
