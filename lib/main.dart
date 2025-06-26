@@ -5,7 +5,7 @@ import 'package:first_app/getXapp/localization/languages.dart';
 import 'package:first_app/getXapp/views/home.dart';
 import 'package:first_app/keplerapp/profile.dart';
 import 'package:first_app/yt/anim_scroll.dart';
-import 'package:first_app/yt/confetti_vid.dart';
+import 'package:first_app/yt/confetti.dart';
 import 'package:first_app/yt/image_cropper.dart';
 import 'package:first_app/yt/shimmer.dart';
 import 'package:flutter/material.dart';
