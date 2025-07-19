@@ -8,46 +8,60 @@ class ExpansibleWidget extends StatefulWidget {
 }
 
 class _ExpansibleWidgetState extends State<ExpansibleWidget> {
+  // Flutter version 3.32.0 or above
+
   final ExpansibleController controller = ExpansibleController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Expansible Widget Example'),
+        title: const Text('Expansible Widget'),
       ),
-      body: Center(
-        child: controller.isExpanded
-            ? Text("Expansible Screen")
-            : Text("Normal Screen"),
-      ),
+      body: const Center(child: Text("Expansible Screen")),
       floatingActionButton: Expansible(
           headerBuilder: (context, builder) {
             if (controller.isExpanded) {
-              return IconButton(
-                  onPressed: () {
-                    setState(() {
-                      controller.collapse();
-                    });
+              return InkWell(
+                  onTap: () {
+                    controller.collapse();
                   },
-                  icon: Icon(Icons.expand_more, size: 30, color: Colors.blue));
+                  child: const Icon(
+                    Icons.expand_less,
+                    color: Colors.black,
+                  ));
             } else {
-              return IconButton(
-                  onPressed: () {
-                    setState(() {
-                      controller.expand();
-                    });
+              return InkWell(
+                  onTap: () {
+                    controller.expand();
                   },
-                  icon: Icon(Icons.expand_less, size: 30, color: Colors.blue));
+                  child: const Icon(
+                    Icons.expand_more,
+                    color: Colors.black,
+                  ));
             }
           },
           bodyBuilder: (context, builder) {
             return const Column(
               children: [
-                Icon(Icons.star, size: 50, color: Colors.yellow),
-                Icon(Icons.near_me, size: 50, color: Colors.yellow),
-                Icon(Icons.favorite, size: 50, color: Colors.red),
-                Icon(Icons.share, size: 50, color: Colors.green),
+                Icon(
+                  Icons.settings,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Icon(
+                  Icons.share,
+                  color: Colors.black,
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Icon(
+                  Icons.favorite,
+                  color: Colors.black,
+                ),
               ],
             );
           },
