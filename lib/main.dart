@@ -1,4 +1,6 @@
 import 'package:first_app/api.dart';
+import 'package:first_app/august%20batch/ui_session_1.dart';
+import 'package:first_app/august%20batch/ui_session_2.dart';
 import 'package:first_app/changenotifierexample.dart';
 import 'package:first_app/demolects/demo1ui.dart';
 import 'package:first_app/getXapp/bindings/homebinding.dart';
@@ -48,7 +50,7 @@ class MyApp extends StatelessWidget {
       translations: AppLanguages(),
       locale: Locale('en', 'US'),
       getPages: [
-        GetPage(name: '/', page: () => ExpansibleWidget()),
+        GetPage(name: '/', page: () => UiSession2()),
       ],
     );
   }
