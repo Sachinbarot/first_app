@@ -1,6 +1,12 @@
 import 'package:first_app/api.dart';
 import 'package:first_app/august%20batch/ui_session_1.dart';
+import 'package:first_app/august%20batch/ui_session_11.dart';
+import 'package:first_app/august%20batch/ui_session_12.dart';
+import 'package:first_app/august%20batch/ui_session_14.dart';
 import 'package:first_app/august%20batch/ui_session_2.dart';
+import 'package:first_app/august%20batch/ui_session_3.dart';
+import 'package:first_app/august%20batch/ui_session_5.dart';
+import 'package:first_app/august%20batch/ui_session_6.dart';
 import 'package:first_app/changenotifierexample.dart';
 import 'package:first_app/demolects/demo1ui.dart';
 import 'package:first_app/getXapp/bindings/homebinding.dart';
@@ -11,6 +17,7 @@ import 'package:first_app/yt/anim_scroll.dart';
 import 'package:first_app/yt/confetti.dart';
 import 'package:first_app/yt/expansible_widget.dart';
 import 'package:first_app/yt/image_cropper.dart';
+import 'package:first_app/yt/reorderablelistview.dart';
 import 'package:first_app/yt/shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
@@ -37,11 +44,12 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.black26,
           scaffoldBackgroundColor: Colors.black45),
       theme: ThemeData(
+          // fontFamily: "PT Sans",
           iconTheme: const IconThemeData(
             color: Colors.red,
           ),
           cardColor: Colors.amber,
-          textTheme: GoogleFonts.outfitTextTheme(),
+          textTheme: GoogleFonts.montserratTextTheme(),
           appBarTheme: AppBarTheme(
               centerTitle: true,
               backgroundColor: Colors.green,
@@ -50,7 +58,7 @@ class MyApp extends StatelessWidget {
       translations: AppLanguages(),
       locale: Locale('en', 'US'),
       getPages: [
-        GetPage(name: '/', page: () => UiSession2()),
+        GetPage(name: '/', page: () => UiSession14()),
       ],
     );
   }

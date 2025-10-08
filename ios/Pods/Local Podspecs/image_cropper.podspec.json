@@ -16,9 +16,7 @@
   "source_files": "image_cropper/Sources/**/*",
   "public_header_files": "image_cropper/Sources/**/*.h",
   "dependencies": {
-    "Flutter": [
-
-    ],
+    "Flutter": [],
     "TOCropViewController": [
       "~> 2.7.4"
     ]
