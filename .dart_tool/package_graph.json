@@ -10,6 +10,7 @@
         "carousel_slider",
         "confetti",
         "cupertino_icons",
+        "dotted_border",
         "flutter",
         "flutter_animate_on_scroll",
         "flutter_lucide",
@@ -68,6 +69,13 @@
         "test_api",
         "vector_math",
         "vm_service"
+      ]
+    },
+    {
+      "name": "dotted_border",
+      "version": "3.1.0",
+      "dependencies": [
+        "flutter"
       ]
     },
     {
