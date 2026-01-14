@@ -440,6 +440,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "skeletonizer",
+      "rootUri": "file:///Users/sachinbrahmbhatt/.pub-cache/hosted/pub.dev/skeletonizer-2.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/sachinbrahmbhatt/Documents/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",

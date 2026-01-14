@@ -57,6 +57,8 @@ dependencies:
   get: ^4.7.2
   speech_to_text: ^7.3.0
   dotted_border: ^3.1.0
+  skeletonizer: ^2.1.2
+  
   
 
 dev_dependencies:

@@ -1,6 +1,9 @@
 import 'package:first_app/august%20batch/ui_session_14.dart';
+import 'package:first_app/december-feb%20batch/exp1.dart';
 import 'package:first_app/getXapp/localization/languages.dart';
+import 'package:first_app/getXapp/views/home.dart';
 import 'package:first_app/yt/dotted_border.dart';
+import 'package:first_app/yt/skl.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
 import 'package:get/route_manager.dart';
@@ -35,10 +38,11 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.green,
               titleTextStyle: GoogleFonts.nunito(
                   fontSize: 20.0, fontWeight: FontWeight.bold))),
+      // routes: {'/': (context) => HomeClass(), '/exp1': (context) => Exp1()},
       translations: AppLanguages(),
       locale: Locale('en', 'US'),
       getPages: [
-        GetPage(name: '/', page: () => const DottedBorderScreen()),
+        GetPage(name: '/', page: () => SkeltonizerUiExample()),
       ],
     );
   }

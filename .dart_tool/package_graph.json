@@ -28,6 +28,7 @@
         "provider",
         "shimmer",
         "showcaseview",
+        "skeletonizer",
         "slider_button",
         "speech_to_text"
       ],
@@ -69,6 +70,13 @@
         "test_api",
         "vector_math",
         "vm_service"
+      ]
+    },
+    {
+      "name": "skeletonizer",
+      "version": "2.1.2",
+      "dependencies": [
+        "flutter"
       ]
     },
     {
