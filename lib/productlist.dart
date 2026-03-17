@@ -82,7 +82,7 @@ class _ProductlistState extends State<Productlist> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    "JBL Headphones",
+                                    snapshot.data!.title,
                                     overflow: TextOverflow.ellipsis,
                                     style: TextStyle(
                                         //   fontWeight: FontWeight.bold,

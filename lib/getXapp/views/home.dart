@@ -7,8 +7,6 @@ import 'package:get/state_manager.dart';
 class HomeClass extends GetView<HomeController> {
   HomeClass({super.key});
 
-  // final HomeController controller = Get.find();/
-
   @override
   Widget build(BuildContext context) {
     Get.put(HomeController());

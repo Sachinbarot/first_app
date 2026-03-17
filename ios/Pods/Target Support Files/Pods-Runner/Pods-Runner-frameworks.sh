@@ -184,6 +184,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/image_cropper/image_cropper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/image_picker_ios/image_picker_ios.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/shared_preferences_foundation/shared_preferences_foundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/speech_to_text/speech_to_text.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/vibration/vibration.framework"
 fi
@@ -196,6 +197,7 @@ if [[ "$CONFIGURATION" == "Profile" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/image_cropper/image_cropper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/image_picker_ios/image_picker_ios.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/shared_preferences_foundation/shared_preferences_foundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/speech_to_text/speech_to_text.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/vibration/vibration.framework"
 fi
@@ -208,6 +210,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/image_cropper/image_cropper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/image_picker_ios/image_picker_ios.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/path_provider_foundation/path_provider_foundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/shared_preferences_foundation/shared_preferences_foundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/speech_to_text/speech_to_text.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/vibration/vibration.framework"
 fi

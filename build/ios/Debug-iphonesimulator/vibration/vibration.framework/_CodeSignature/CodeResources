@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/vibration-Swift.h</key>
 		<data>
-		Z+VLNLqEXW9wLRFtnOGo2/mKRRw=
+		G4P0r00lEKwC+9fGlWNwqCvEWCA=
 		</data>
 		<key>Headers/vibration-umbrella.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OhdMVoK0VbrrMMifZW+bx188xgQ=
+		iWFxVJCg5EJIOKlxKHdnRi8N0w0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/vibration.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		WZdWnoyGuSeRH++nSaVeZfkEya0=
+		0c+U589FO2BjjWMXwCrgVhh6JAY=
 		</data>
 		<key>Modules/vibration.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		hE4QAo2S/zR3VgBJZnqfrwy4vfA=
+		dNDp8PBUfoG271NE4ngwZQH47jU=
 		</data>
 		<key>Modules/vibration.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/vibration.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4SP9pFsZozg/htTjormYdgA5I9E=
+		s14n8DGZiElEtwsP3hfi0wzSnS8=
 		</data>
 		<key>Modules/vibration.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CnVL3WjosK8E0iYjB1avg/mVulw=
+		piZIN28hzHUZWV1JCrssG61D3NI=
 		</data>
 		<key>Modules/vibration.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/vibration.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OnWAhW+Us5gaGx/fvJ9hge42k/o=
+		apoXZvlge/3EZFOPt6eqGS8RP8Y=
 		</data>
 		<key>Modules/vibration.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LX85BD9FwCzpEPwtzu1XCOdn3lQ=
+		nIBNUQs0vJS5rV/RIP32mO+7ROU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gm1/aNeDvzq5S/h8qrFnWVYbYIu4YkPkFv0HYcfk84=
+			ctt8m1+qXuxqiwv06YVf0wi73AxwLeF79MyoDO7F2ho=
 			</data>
 		</dict>
 		<key>Headers/vibration-umbrella.h</key>
@@ -91,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uBaoV/KOwYwfn5Ra42IX99qqt1wuxL9ygLfiaiSlw+k=
+			VD4zX+OM5hSOP3HCsgSVAv0FKoyQzdSnVjyyAhQX28U=
 			</data>
 		</dict>
 		<key>Modules/vibration.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U515dGV7Eoxdz1DsNY4I2hGLag7zosbPCpIKYzaKvFQ=
+			v7/7oJzoyG584mOznHjfzHh6nPbSfFNbJ999BREfDLs=
 			</data>
 		</dict>
 		<key>Modules/vibration.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -112,14 +112,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wpr6aJAHyuTFUZ4OZ1IWi7eTjvbCI6NocyHmUl7IOJo=
+			XOsGhgbPRbPLp7fxHPyq94304UbwnpdC3MB0EwT5Ouk=
 			</data>
 		</dict>
 		<key>Modules/vibration.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VZ+oLq3pOk32MxDgJMgwCd3VUBbbu5v7jcvcvxLaC+s=
+			agwUs7cIRluqqPiilNd2hFbpBD6VGX20X9lhL+c4gUo=
 			</data>
 		</dict>
 		<key>Modules/vibration.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,14 +133,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aM8ViV2/33eYS8jg+yNIHaZ8k/8PnW6dyP5YpjNkWZs=
+			hBny4B99z5FQQUm8DMVPOu+6ohlsaZhMz+tHGMUbk5c=
 			</data>
 		</dict>
 		<key>Modules/vibration.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jFm1Yan+EaarFn9wID7ufVi5kdDzcBuv8V/Jrqwu/sQ=
+			r43X96k/bZwpg0rYjKm9zRVooF3huh40p2T/y/BDUhs=
 			</data>
 		</dict>
 	</dict>
